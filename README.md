@@ -1,18 +1,23 @@
-# CSP Assignment
+# CSP Assignment (C Language)
 
-This project contains solutions for Constraint Satisfaction Problems (CSP).
-
-## Problems Implemented
+## Programs
 1. Australia Map Coloring
 2. Telangana Map Coloring
 3. Sudoku Solver
-4. Cryptarithm (SEND + MORE = MONEY)
+4. Cryptarithm Problem
 
-## Language Used
-Python
+## Language
+C
 
 ## How to Run
-python3 australia_map.py
-python3 telangana_map.py
-python3 sudoku_solver.py
-python3 cryptarithm.py
+gcc australia_map.c -o aus
+./aus
+
+gcc telangana_map.c -o tel
+./tel
+
+gcc sudoku_solver.c -o sudoku
+./sudoku
+
+gcc cryptarithm.c -o crypto
+./crypto
